@@ -75,7 +75,7 @@ void dfs(int k){//第K次决策
 	{
 	   if(i!=6&&i!=7&&r[i].zhuang==0)
 	   	{
-	   		cout<<r[i].ceng<<endl;
+	   	//	cout<<r[i].ceng<<endl;
 		    ji=dt.floor;
 	   		dt.time+=abs(dt.floor-r[i].ceng);
 	   		dt.floor=r[i].ceng;//模拟电梯移动 
