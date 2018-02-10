@@ -175,5 +175,5 @@ int main(){
 	dfs(1); 
 	for(int i=1;i<=20;i++)
 	cout<<anss[i].time<<" "<<anss[i].floor<<endl; 
-	return 0;
+	return 0; 
 }
