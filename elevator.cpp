@@ -4,7 +4,9 @@
 #include<string>
 #include<cstring>
 #include<algorithm>
-
+//
+//
+//不算完整版。正在修改：1.当请求超出运行时间的数据情况 2.存在1或10楼的进出情况
 using namespace std;
 int zong=0;//记录总时间，用来比对求出最优解
 int ask[1004];
