@@ -170,7 +170,8 @@ void dfs(int k){//第K次决策
 	} 
 }
 int main(){
-	
+	freopen("input.in", "r", stdin);  
+        freopen("output.out", "w", stdout);    
 	for(int i=1;i<=5;i++)
 	 scanf("%d%d%d",&r[i].time,&r[i].ceng,&r[i].flag);//读入 
 	r[6].ceng=10;r[6].zhuang=0;//初始化 
@@ -178,5 +179,7 @@ int main(){
 	dfs(1); 
 	for(int i=1;i<=20;i++)
 	cout<<anss[i].time<<" "<<anss[i].floor<<endl; 
+	fclose(stdin);  
+        fclose(stdout);  
 	return 0; 
 }
